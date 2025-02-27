@@ -1,0 +1,104 @@
+.name
+{
+    color:rgb(226, 224, 224);
+    margin-left: 3.4em;
+    padding-top: .8em;
+}
+.input
+{
+    color: rgb(61, 63, 65);
+    font-size: 1em;
+    width: 250px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius:5px ;
+    outline: none;
+    margin-left: 50px;
+}
+.existchecker
+{ 
+    color: white;
+    padding-left:5em ;
+    margin: 0px;
+    font-size:1.2em;
+    color:red;
+    visibility:hidden;
+
+}
+.styles
+{
+    background-Color:#302f2f;
+    padding-left:10px;
+    padding-bottom: 1px;
+    margin-bottom:10px;    
+}   
+.ol
+{
+  padding-left: 0px;
+}
+.text
+{
+    flex:1;
+    font-size:1.4em;
+
+}
+.liststyle
+{
+    font-size:1em;
+    font-weight:bolder;
+    padding:5px 10px 5px 5px;
+    background-color: hsla(0, 0%, 97%, 0.75);
+    color: rgb(34, 32, 32);
+    display: flex;
+    margin-right: 10px;
+    text-align:center;
+    align-items:center;
+    border:2px solid hsla(0, 0%, 85%, 0.76);
+    margin-bottom:5px;
+    overflow-y:hidden;
+ 
+}
+.del{
+    color: rgb(255, 255, 255);
+    background-color: rgba(252, 46, 46, 0.952);
+    font-size: 1em;
+    font-weight: bold;
+    padding: 6.5px 10px 6.5px 10px;
+    border-right: none;
+    margin-right: 0px;
+
+}
+.del:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.up,.down
+{
+    background-color: rgba(52, 52, 243, 0.945);
+    font-size: 1em;
+    padding:5px 2px 5px 3px ;
+    margin: 0px;
+    border-left:none;
+    transition:background-color .2s ease;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.up:hover,.down:hover{
+    cursor: pointer;
+    background-color: blue;
+   
+}
+
+.addbutton
+{
+    font-size: 1em;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius:5px;
+    margin-left: 5px;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 15px;
+}
